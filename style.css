@@ -29,6 +29,7 @@ body{
       animation: slideTop1 .5s ease forwards;
       animation-delay: calc(.3s * var(--i));
   }
+  
   .head h2{
    margin-left:10px;
   }
@@ -55,7 +56,7 @@ body{
     margin-right: 500px;
     margin-top: 40px;
     position:relative;
-   }
+   }  
    
    .like h2{
     margin-left: -50px;
@@ -106,6 +107,31 @@ body{
   margin-right: 250px;
   position:relative;
  }
+ /* Logo Styling */
+.logo {
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+/* Navbar Link Hover Effect */
+.navbar-nav .nav-link {
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Bootstrap primary color */
+}
+
+/* Active Link Styling */
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
   }
   @media only screen and (max-width: 425px){
     .head .menu{
@@ -311,6 +337,14 @@ body{
 }
 .btn1:hover::before {
   width: 60%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar .nav-list {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+  }
 }
 
 .btn1::after {
@@ -524,7 +558,7 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.13);
     margin-left: 30px;
     border-radius: 5px;
-    color: white;
+    color: black;
   }
   .box2{
     height: 40px;
@@ -534,7 +568,7 @@ body{
     margin-left: 30px;
     margin-top: 20px;
     border-radius: 5px;
-    color: white;
+    color: black;
   }
   .box3{
     height: 80px;
@@ -544,7 +578,7 @@ body{
     margin-left: 30px;
     margin-top: 20px;
     border-radius: 5px;
-    color: white;
+    color: black;
   }
   .location{
     margin-top: 30px;
@@ -639,6 +673,14 @@ body{
   margin-top: 60px;
   margin-left: 230px;
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .filter{
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+  }
+}
+
 .link{
   display: inline-flex;
   margin-top: 20px;
