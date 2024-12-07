@@ -184,10 +184,6 @@ body{
     margin-top: 60px;
     margin-left: -90px;
   }
-  .front img{
-    width: 400px;
-    height: 400px;
-  }
   .work .filterable_Cards .front { 
     position: relative;
     border-radius: 2rem;   
@@ -675,26 +671,3 @@ body{
   justify-content: space-around;
   margin-right: 70px;
 }
-
-/* General Mobile Optimizations */
-body {
-  font-family: Arial, sans-serif;
-}
-
-/* Introduction Section */
-.introduction img {
-  max-width: 250px;
-  width: 100%;
-}
-
-/* Skills Section */
-.skills h4 {
-  font-size: 1.25rem;
-}
-
-.progress-bar {
-  height: 1.5rem;
-}
-
-
-
