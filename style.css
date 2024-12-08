@@ -1,11 +1,12 @@
 body{
-    background-image: url("images/Frame\ 1\ \(5\).jpg");
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
    }
-
+   
+   
    @media only screen and (max-width: 1024px){
     .body{
       background-image: url("images/Frame\ 1\ \(5\).jpg");
@@ -29,7 +30,7 @@ body{
       animation: slideTop1 .5s ease forwards;
       animation-delay: calc(.3s * var(--i));
   }
-  
+
   .head h2{
    margin-left:10px;
   }
@@ -130,6 +131,9 @@ body{
 .navbar-nav .nav-link.active {
   font-weight: bold;
   color: #007bff;
+}
+.nav-item{
+  color: white;
 }
 
   }
@@ -507,7 +511,7 @@ body{
   .progress-bar{
     background-image:linear-gradient(to right,#3BAFEA,#C570EA,#F05269);
     animation:slideRight 1s ease forwards;
-    animation-delay: 5s;
+    animation-delay: 2s;
     opacity: 0;
   }
   @keyframes slideRight {
@@ -555,7 +559,7 @@ body{
     height: 40px;
     width: 280px;
     background-color: rgba(255, 255, 255, 0.055);
-    border: 1px solid rgba(255, 255, 255, 0.13);
+    border: 1px solid black;
     margin-left: 30px;
     border-radius: 5px;
     color: black;
@@ -564,7 +568,7 @@ body{
     height: 40px;
     width: 590px;
     background-color: rgba(255, 255, 255, 0.055);
-    border: 1px solid rgba(255, 255, 255, 0.13);
+    border: 1px solid black;
     margin-left: 30px;
     margin-top: 20px;
     border-radius: 5px;
@@ -574,7 +578,7 @@ body{
     height: 80px;
     width: 590px;
     background-color: rgba(255, 255, 255, 0.055);
-    border: 1px solid rgba(255, 255, 255, 0.13);
+    border: 1px solid black;
     margin-left: 30px;
     margin-top: 20px;
     border-radius: 5px;
