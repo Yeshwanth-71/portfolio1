@@ -562,7 +562,7 @@ body{
     border: 1px solid black;
     margin-left: 30px;
     border-radius: 5px;
-    color: black;
+    color: white;
   }
   .box2{
     height: 40px;
@@ -572,7 +572,7 @@ body{
     margin-left: 30px;
     margin-top: 20px;
     border-radius: 5px;
-    color: black;
+    color: white;
   }
   .box3{
     height: 80px;
@@ -582,7 +582,7 @@ body{
     margin-left: 30px;
     margin-top: 20px;
     border-radius: 5px;
-    color: black;
+    color: white;
   }
   .location{
     margin-top: 30px;
